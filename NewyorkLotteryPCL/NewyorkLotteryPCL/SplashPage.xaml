@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewyorkLotteryPCL.SplashPage"
+             BackgroundColor="#263763">
+    <StackLayout Orientation="Vertical">
+        <Image Source="megamillions.png" Aspect="AspectFit" WidthRequest="200" HorizontalOptions="Center" Margin="0, 40, 0, 0"/>
+        <Image Source="powerball.png" Aspect="AspectFit" WidthRequest="160" HorizontalOptions="Center" Margin="0, 40, 0, 0"/>
+        <Image Source="lotto.png" Aspect="AspectFit" WidthRequest="200" HorizontalOptions="Center" Margin="0, 40, 0, 0"/>
+        <Image Source="cash4life.png" Aspect="AspectFit" WidthRequest="100" HorizontalOptions="Center" Margin="0, 40, 0, 0"/>
+        <Label Text="Loading..." FontSize="18" TextColor="#c80513" HorizontalOptions="Center" Margin="0, 60, 0, 0"/>
+    </StackLayout>
+</ContentPage>
