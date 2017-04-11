@@ -49,7 +49,7 @@
                 <!-- megamillions END -->
 
                 <!-- powerball START -->
-                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd">
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
                     <StackLayout Orientation="Vertical" BackgroundColor="White">
                         <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
                             <Image Source="powerball.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
@@ -85,6 +85,284 @@
                     </StackLayout>
                 </Frame>
                 <!-- powerball END -->
+
+                <!-- cash4life START -->
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
+                            <Image Source="cash4life.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <Label x:Name="cash4life_tirage_du" Text="Tuesday, February 7, 2017" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="cash4life_n1" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="cash4life_n2" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="cash4life_n3" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="cash4life_n4" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="cash4life_n5" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label Text="CB" TextColor="#aaaaaa" FontSize="15"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="35" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="cash4life_n6" Text="-" TextColor="White" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Draw : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="cash4life_nextdraw" Text="Tue, Feb 28, 2017" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
+                            <Button x:Name="btnCash4lifePrize" Clicked="btnCash4lifePrize_Clicked" Text="Prize breakdown" TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
+                            <Button x:Name="btnCash4lifeHistorique" Clicked="btnCash4lifeHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!-- cash4life END -->
+
+                <!-- lotto START -->
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
+                            <Image Source="lotto.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <Label x:Name="lotto_tirage_du" Text="Tuesday, February 7, 2017" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="lotto_n1" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="lotto_n2" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="lotto_n3" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="lotto_n4" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="lotto_n5" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="lotto_n6" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label Text="B" TextColor="#aaaaaa" FontSize="15" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="35" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="lotto_n7" Text="-" TextColor="White" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Draw : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="lotto_nextdraw" Text="Tue, Feb 28, 2017" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 0, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Jackpot : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="lotto_jackpot" Text="PJ 265 8618" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
+                            <Button x:Name="btnLottoPrize" Clicked="btnLottoPrize_Clicked" Text="Prize breakdown" TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
+                            <Button x:Name="btnLottoHistorique" Clicked="btnLottoHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!-- lotto END -->
+
+                <!-- take_5 START -->
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
+                            <Image Source="take5.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <Label x:Name="take_5_tirage_du" Text="Tuesday, February 7, 2017" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="take_5_n1" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="take_5_n2" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="take_5_n3" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="take_5_n4" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="take_5_n5" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Draw : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="take_5_nextdraw" Text="Tue, Feb 28, 2017" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
+                            <Button x:Name="btnTake5Historique" Clicked="btnTake5Historique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!-- take_5 END -->
+
+                <!-- numbers_midday START -->
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HeightRequest="60" Padding="5">
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="Midday" FontSize="12" HorizontalOptions="Start"/>
+                                <Image Source="numbers.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                                <Label x:Name="numbers_midday_tirage_du" Text="Tuesday, February 7, 2017" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="numbers_midday_n1" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="numbers_midday_n2" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="numbers_midday_n3" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label Text="LS" TextColor="#aaaaaa" FontSize="15"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="35" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="numbers_midday_n4" Text="-" TextColor="White" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Draw : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="numbers_midday_nextdraw" Text="Tue, Feb 28, 2017" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
+                            <Button x:Name="btnNumbers_middayHistorique" Clicked="btnNumbers_middayHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!-- numbers_midday END -->
+
+                <!-- numbers_evening START -->
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HeightRequest="60" Padding="5">
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="Evening" FontSize="12" HorizontalOptions="Start"/>
+                                <Image Source="numbers.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                                <Label x:Name="numbers_evening_tirage_du" Text="Tuesday, February 7, 2017" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="numbers_evening_n1" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="numbers_evening_n2" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="numbers_evening_n3" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label Text="LS" TextColor="#aaaaaa" FontSize="15"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="35" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="numbers_evening_n4" Text="-" TextColor="White" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Draw : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="numbers_evening_nextdraw" Text="Tue, Feb 28, 2017" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
+                            <Button x:Name="btnNumbers_eveningHistorique" Clicked="btnNumbers_eveningHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!-- numbers_evening END -->
+
+                <!-- win_4_midday START -->
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HeightRequest="60" Padding="5">
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="Midday" FontSize="12" HorizontalOptions="Start"/>
+                                <Image Source="win4.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                                <Label x:Name="win_4_midday_tirage_du" Text="Tuesday, February 7, 2017" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="win_4_midday_n1" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="win_4_midday_n2" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="win_4_midday_n3" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="win_4_midday_n4" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label Text="LS" TextColor="#aaaaaa" FontSize="15"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="35" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="win_4_midday_n5" Text="-" TextColor="White" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Draw : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="win_4_midday_nextdraw" Text="Tue, Feb 28, 2017" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
+                            <Button x:Name="btnWin_4_middayHistorique" Clicked="btnWin_4_middayHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!-- win_4_midday END -->
+
+                <!-- win_4_evening START -->
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HeightRequest="60" Padding="5">
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="Midday" FontSize="12" HorizontalOptions="Start"/>
+                                <Image Source="win4.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                                <Label x:Name="win_4_evening_tirage_du" Text="Tuesday, February 7, 2017" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="win_4_evening_n1" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="win_4_evening_n2" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="win_4_evening_n3" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="win_4_evening_n4" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="3, 0, 0, 0"/>
+                            <Label Text="LS" TextColor="#aaaaaa" FontSize="15"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="35" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="win_4_evening_n5" Text="-" TextColor="White" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Draw : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="win_4_evening_nextdraw" Text="Tue, Feb 28, 2017" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
+                            <Button x:Name="btnWin_4_eveningHistorique" Clicked="btnWin_4_eveningHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!-- win_4_evening END -->
+
+                <!-- pick_10 START -->
+                <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
+                            <Image Source="pick10.png" Aspect="AspectFit" WidthRequest="130" HorizontalOptions="Start" />
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <Label x:Name="pick_10_tirage_du" Text="Tuesday, February 7, 2017" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="pick_10_n1" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="pick_10_n2" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n3" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n4" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n5" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="pick_10_n6" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="pick_10_n7" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n8" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n9" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n10" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="pick_10_n11" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="pick_10_n12" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n13" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n14" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n15" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
+                            <Label x:Name="pick_10_n16" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe"/>
+                            <Label x:Name="pick_10_n17" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n18" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n19" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                            <Label x:Name="pick_10_n20" Text="-" TextColor="#404040" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f4fafe" Margin="5, 0, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
+                            <Label Text="Next Draw : " TextColor="#263763" FontSize="18" VerticalOptions="Center"/>
+                            <Label x:Name="pick_10_nextdraw" Text="Tue, Feb 28, 2017" TextColor="#263763" FontSize="18" Margin="10, 0, 0, 0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
+                        <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
+                            <Button x:Name="btnPick10Historique" Clicked="btnPick10Historique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!-- pick_10 END -->
 
             </StackLayout>
         </ScrollView>

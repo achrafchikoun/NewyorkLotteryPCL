@@ -33,5 +33,55 @@ namespace NewyorkLotteryPCL
         {
 
         }
+
+        private void btnCash4lifePrize_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCash4lifeHistorique_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLottoPrize_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLottoHistorique_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTake5Historique_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNumbers_middayPrize_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNumbers_middayHistorique_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNumbers_eveningHistorique_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnWin_4_middayHistorique_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPick10Historique_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
