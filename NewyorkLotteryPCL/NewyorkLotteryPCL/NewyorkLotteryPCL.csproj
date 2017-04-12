@@ -40,8 +40,59 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GlobalVariable.cs" />
+    <Compile Include="Historical\Cash4lifeHistoriquePage.xaml.cs">
+      <DependentUpon>Cash4lifeHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\LottoHistoriquePage.xaml.cs">
+      <DependentUpon>LottoHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\MegamillionsHistoriquePage.xaml.cs">
+      <DependentUpon>MegamillionsHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\Numbers_eveningHistorique.xaml.cs">
+      <DependentUpon>Numbers_eveningHistorique.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\Numbers_middayHistoriquePage.xaml.cs">
+      <DependentUpon>Numbers_middayHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\Pick_10HistoriquePage.xaml.cs">
+      <DependentUpon>Pick_10HistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\PowerballHistoriquePage.xaml.cs">
+      <DependentUpon>PowerballHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\Take_5HistoriquePage.xaml.cs">
+      <DependentUpon>Take_5HistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\Win_4_eveningHistoriquePage.xaml.cs">
+      <DependentUpon>Win_4_eveningHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historical\Win_4_middayHistoriquePage.xaml.cs">
+      <DependentUpon>Win_4_middayHistoriquePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Cash4life.cs" />
+    <Compile Include="Models\Lotto.cs" />
+    <Compile Include="Models\Megamillions.cs" />
+    <Compile Include="Models\Numbers.cs" />
+    <Compile Include="Models\Pick_10.cs" />
+    <Compile Include="Models\Powerball.cs" />
+    <Compile Include="Models\Take_5.cs" />
+    <Compile Include="Models\Win_4.cs" />
+    <Compile Include="Prize\Cash4lifePrizePage.xaml.cs">
+      <DependentUpon>Cash4lifePrizePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Prize\LottoPrizePage.xaml.cs">
+      <DependentUpon>LottoPrizePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Prize\MegamillionPrizePage.xaml.cs">
+      <DependentUpon>MegamillionPrizePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Prize\PowerballPrizePage.xaml.cs">
+      <DependentUpon>PowerballPrizePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashPage.xaml.cs">
@@ -95,6 +146,90 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SplashPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Prize\MegamillionPrizePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\Pick_10HistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Prize\PowerballPrizePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Prize\Cash4lifePrizePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Prize\LottoPrizePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\MegamillionsHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\PowerballHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\Cash4lifeHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\LottoHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\Take_5HistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\Numbers_middayHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\Win_4_middayHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\Win_4_eveningHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historical\Numbers_eveningHistorique.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
