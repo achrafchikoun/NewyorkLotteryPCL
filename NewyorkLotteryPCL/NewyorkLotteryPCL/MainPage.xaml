@@ -41,8 +41,8 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnMegamillionsPrize" Clicked="btnMegamillionsPrize_Clicked" Text="Prize breakdown" TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
-                            <Button x:Name="btnMegamillionsHistorique" Clicked="btnMegamillionsHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnMegamillionsPrize" Clicked="btnMegamillionsPrize_Clicked" Text="Prize breakdown" WidthRequest="120"  TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
+                            <Button x:Name="btnMegamillionsHistorique" Clicked="btnMegamillionsHistorique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -79,8 +79,8 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnPowerballPrize" Clicked="btnPowerballPrize_Clicked" Text="Prize breakdown" TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
-                            <Button x:Name="btnPowerballHistorique" Clicked="btnPowerballHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnPowerballPrize" Clicked="btnPowerballPrize_Clicked" Text="Prize breakdown" WidthRequest="120"  TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
+                            <Button x:Name="btnPowerballHistorique" Clicked="btnPowerballHistorique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -111,8 +111,8 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnCash4lifePrize" Clicked="btnCash4lifePrize_Clicked" Text="Prize breakdown" TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
-                            <Button x:Name="btnCash4lifeHistorique" Clicked="btnCash4lifeHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnCash4lifePrize" Clicked="btnCash4lifePrize_Clicked" Text="Prize breakdown" WidthRequest="120"  TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
+                            <Button x:Name="btnCash4lifeHistorique" Clicked="btnCash4lifeHistorique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -148,8 +148,8 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnLottoPrize" Clicked="btnLottoPrize_Clicked" Text="Prize breakdown" TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
-                            <Button x:Name="btnLottoHistorique" Clicked="btnLottoHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnLottoPrize" Clicked="btnLottoPrize_Clicked" Text="Prize breakdown" WidthRequest="120"  TextColor="#565556" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="10, 0, 0, 0" BorderWidth="1" BorderColor="#565556" HorizontalOptions="Start"/>
+                            <Button x:Name="btnLottoHistorique" Clicked="btnLottoHistorique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -178,7 +178,7 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnTake5Historique" Clicked="btnTake5Historique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnTake5Historique" Clicked="btnTake5Historique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -210,7 +210,7 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnNumbers_middayHistorique" Clicked="btnNumbers_middayHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnNumbers_middayHistorique" Clicked="btnNumbers_middayHistorique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -242,7 +242,7 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnNumbers_eveningHistorique" Clicked="btnNumbers_eveningHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnNumbers_eveningHistorique" Clicked="btnNumbers_eveningHistorique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -275,7 +275,7 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnWin_4_middayHistorique" Clicked="btnWin_4_middayHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnWin_4_middayHistorique" Clicked="btnWin_4_middayHistorique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -308,7 +308,7 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnWin_4_eveningHistorique" Clicked="btnWin_4_eveningHistorique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnWin_4_eveningHistorique" Clicked="btnWin_4_eveningHistorique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
@@ -358,7 +358,7 @@
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
-                            <Button x:Name="btnPick10Historique" Clicked="btnPick10Historique_Clicked" Text="Past Results" TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
+                            <Button x:Name="btnPick10Historique" Clicked="btnPick10Historique_Clicked" Text="Past Results" WidthRequest="120"  TextColor="#8a6d3b" BackgroundColor="White" FontSize="18" FontAttributes="Bold" Margin="0, 0, 10, 0" BorderWidth="1" BorderColor="#8a6d3b" HorizontalOptions="EndAndExpand"/>
                         </StackLayout>
                     </StackLayout>
                 </Frame>
