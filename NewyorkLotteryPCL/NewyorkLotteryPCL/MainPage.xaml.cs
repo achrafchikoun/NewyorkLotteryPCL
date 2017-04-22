@@ -22,18 +22,18 @@ namespace NewyorkLotteryPCL
         {
             InitializeComponent();
 
+            NavigationPage.SetBackButtonTitle(this, "");
+
             GlobalVariable.count++;
-            if(GlobalVariable.count == 4)
+
+            adInterstitial = DependencyService.Get<IAdInterstitial>();
+
+            adInterstitial.ShowAd();
+
+            Device.BeginInvokeOnMainThread(() =>
             {
-                GlobalVariable.count = 0;
-
-                adInterstitial = DependencyService.Get<IAdInterstitial>();
-
-                adInterstitial.ShowAd();
-            }
-            
-
-            callAPI();
+                callAPI();
+            });
         }
 
         private async Task callAPI()

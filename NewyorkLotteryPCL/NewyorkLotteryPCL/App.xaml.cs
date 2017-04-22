@@ -13,7 +13,11 @@ namespace NewyorkLotteryPCL
         {
             InitializeComponent();
 
-            MainPage = new NewyorkLotteryPCL.SplashPage();
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.FromHex("#263763"),
+                BarTextColor = Color.White,
+            };
         }
 
         protected override void OnStart()
