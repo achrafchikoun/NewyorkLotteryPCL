@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:NewyorkLotteryPCL"
              x:Class="NewyorkLotteryPCL.MainPage"
              xmlns:Ad="clr-namespace:NewyorkLotteryPCL.AdMob;assembly=NewyorkLotteryPCL"
-             Title="Lotto Deutschland">
+             Title="New york Lottery Results">
 
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
         <ScrollView VerticalOptions="Start">
